@@ -22,7 +22,7 @@ export default function RootLayout({
           <div className="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
           <Link href="/" className="flex items-center">
             <img
-              src="/trsticon.jpg"
+              src="/trstlogoicon.png"
               alt="TRST icon"
               className="h-8 w-8 object-contain"
             />
