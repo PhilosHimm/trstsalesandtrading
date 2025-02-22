@@ -7,8 +7,8 @@ import { Card } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 
 // Replace these with your actual Google Docs form links
-const googleDocsURLAnalyst = 'https://docs.google.com/...analyst-form...';
-const googleDocsURLNonAnalyst = 'https://docs.google.com/...non-analyst-form...';
+const googleDocsURLAnalyst = 'https://docs.google.com/forms/d/e/1FAIpQLSfoc-t1sm8THcLgnfU17sYSVGwZUVkEM7qa_ev91U-u_Npl0A/viewform';
+const googleDocsURLNonAnalyst = 'https://docs.google.com/forms/d/e/1FAIpQLSdjRiIsj8zKGtzVDU7q1hQhDQylslJ0zBMv5VGK1a56EXP1wQ/viewform';
 
 export default function HiringPage() {
   // Analyst roles (original set)
