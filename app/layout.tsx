@@ -20,7 +20,13 @@ export default function RootLayout({
       <body className={inter.className}>
         <nav className="fixed w-full z-50 bg-white/90 backdrop-blur-sm shadow-sm">
           <div className="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
-            <Link href="/" className="font-bold text-xl text-blue-900">TRST</Link>
+          <Link href="/" className="flex items-center">
+            <img
+              src="/trsticon.jpg"
+              alt="TRST icon"
+              className="h-8 w-8 object-contain"
+            />
+          </Link>
             <div className="hidden md:flex space-x-8">
               <Link href="/" className="text-gray-600 hover:text-blue-900">Home</Link>
               <Link href="/about" className="text-gray-600 hover:text-blue-900">About</Link>
