@@ -76,9 +76,9 @@ export default function Home() {
             </div>
             <div className="relative h-[400px]">
               <img
-                src="https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f"
-                alt="Trading floor"
-                className="rounded-lg object-cover w-full h-full"
+              src="https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f"
+              alt="Trading floor"
+              className="rounded-lg object-cover w-full h-full"
               />
             </div>
           </div>
