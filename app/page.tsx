@@ -1,5 +1,6 @@
 'use client';
 
+import Link from 'next/link';
 import { LineChart, TrendingUp, Users, BookOpen } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
@@ -15,9 +16,11 @@ export default function Home() {
           <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto">
             Exploring the world of finance and empowering students with knowledge of global markets
           </p>
+          <Link href="/hiring">
           <Button size="lg" className="bg-blue-600 hover:bg-blue-700">
             Join TRST Today
           </Button>
+        </Link>
         </div>
       </section>
 
