@@ -17,7 +17,7 @@ export default function NavBar() {
           <img
             src="/trstlogoicon.png"
             alt="TRST icon"
-            className="h-8 w-8 object-contain"
+            className="h-20 w-20 object-contain"
           />
         </Link>
 
