@@ -6,6 +6,15 @@ import { Button } from '@/components/ui/button';
 import { Separator } from '@/components/ui/separator';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 
+type EventType = {
+  title: string;
+  date: string;
+  time: string;
+  location: string;
+  description: string;
+  image: string;
+};
+
 export default function EventsPage() {
   const upcomingEvents = [
     {
@@ -77,7 +86,7 @@ export default function EventsPage() {
     }
   ];
 
-  const EventCard = ({ event }) => (
+  const EventCard = ({ event }: { event: EventType }) => (
     <Card className="overflow-hidden hover:shadow-lg transition-shadow">
       <div className="relative h-48">
         <img
