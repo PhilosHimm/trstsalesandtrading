@@ -6,7 +6,7 @@ import { Button } from '@/components/ui/button';
 import { Card, CardHeader, CardTitle, CardDescription, CardContent, CardFooter } from '@/components/ui/card';
 import { Separator } from '@/components/ui/separator';
 
-export default function Home() {
+const HomePage = () => {
   return (
     <main>
       {/* Hero Section */}
@@ -138,4 +138,6 @@ export default function Home() {
       </section>
     </main>
   );
-}
+};
+
+export default HomePage;

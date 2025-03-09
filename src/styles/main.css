@@ -1,0 +1,53 @@
+/* Import typography system */
+@import './typography.css';
+
+/* Hero Section Styling */
+.hero,
+.hero-section,
+section[role="banner"],
+.banner,
+.page-header {
+  background-color: var(--color-white);
+  color: var(--color-text-primary);
+}
+
+.hero-title,
+.hero h1,
+.hero h2,
+.page-header h1 {
+  color: var(--color-text-primary);
+}
+
+.hero-subtitle,
+.hero p,
+.page-header p {
+  color: var(--color-text-secondary);
+}
+
+/* Hero buttons and CTAs */
+.hero-button,
+.hero .btn-primary,
+.hero .cta-button {
+  background-color: var(--color-green);
+  color: var(--color-white);
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-weight: 500;
+  transition: opacity 0.2s ease;
+}
+
+.hero-button:hover,
+.hero .btn-primary:hover,
+.hero .cta-button:hover {
+  opacity: 0.9;
+}
+
+/* Hero elements with green accents */
+.hero-accent,
+.hero-feature,
+.hero .highlight {
+  color: var(--color-green);
+}
+
+/* ...existing code... */
